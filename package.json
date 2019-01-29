@@ -1,17 +1,12 @@
 {
   "name": "tyxis",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A toolkit for common types to prevent WET types",
-  "main": "lib/index.js",
+  "main": "index.ts",
   "repository": "git@github.com:scottdj92/tyxis.git",
   "author": "Scott Jones <scottdj92@gmail.com>",
   "license": "MIT",
-  "scripts": {
-    "build": "rimraf ./lib && tsc"
-  },
   "devDependencies": {
-    "ava": "^1.2.0",
-    "rimraf": "^2.6.3",
     "tslint": "^5.12.1",
     "typescript": "^3.2.4"
   }
